@@ -1,0 +1,41 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(238, 188, 209);
+    color: rgb(110, 51, 86);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.containt{
+   display: flex;
+   flex: 1; 
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 650px;
+    height: 1000px;
+    border-radius: 15px;
+}
+
+.list{
+    width: 100%;
+    height: 100%;
+}
+
+@media  (max-height: 760px) {
+    
+    img{
+        height: 100%;
+        width: 300px;
+    }
+
+    .image{
+        height: 100%;
+        width: 100%;
+    }
+}
